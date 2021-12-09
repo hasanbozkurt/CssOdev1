@@ -1,34 +1,52 @@
-body{
-    text-align: center;
+body {
+  background-color: #E9ECEF;
 }
-.liste img{
-    height: 800px;
-
+.body{
+  text-align: center;
 }
-
-.menu{
-    list-style: none;
-    display: block;
-    color: royalblue;
+.navbar .navbar-brand{
+  color: red;
 }
-.menu li{
-    display: inline;
-    margin: 5px;
-    position: relative;
+.liste img {
+  height: 800px;
 }
 
-.liste {
-    list-style: none;
-    display: inline-block;
-}
 h2 {
-    color: red;
+  color: red;
 }
 
-h3{
-    color: slateblue;
+.display-4 {
+  color: red;
+}
+
+.header {
+  color: purple;
 }
 
 h4 {
-    color: yellowgreen;
+  color: yellowgreen;
+  font-size: 40px;
+}
+
+.hakkımızda{
+  font-size: 30px;
+  background-color: #E9ECEF;
+}
+.jumbotron .liste{
+  list-style: none;
+  display: inline-block;
+}
+
+.container .card{
+ width: 414px;
+ height: 480px;
+}
+.card-body .card-title{
+  text-align: start;
+  color: purple
+}
+.card-body .card-title p{
+   color: white;
+   background-color: grey;
+   display: inline;
 }

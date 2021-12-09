@@ -1,40 +1,142 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ürünlerimiz | Bilgisayar Dükkanım</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <h2>Bilgisayar Dükkanım</h2>
-    </div>
 
-    <div class="menu">
-    <ul>
-        <strong>
-        <a href="index.html"><u><li >Ana Sayfa</li></u></a> 
-        <a href="urunlerimiz.html"><u><li>Ürünlerimiz</li></u></a>
-        <a href="hakkımızda.html"><u><li>Hakkımızda</li></u></a>
-        </strong>
-    </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürünlerimiz | Bilgisayar Dükkanım</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Bilgisayar Dükkanım</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">Ana Sayfa</a>
+          <a class="nav-link active" href="urunlerimiz.html">Ürünlerimiz</a>
+          <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+        </div>
+      </div>
     </div>
-    <div>
-        <h3>Ürünlerimiz</h3>
+  </nav>
+  <div class="display-4 header">
+    Ürünlerimiz
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün1.jpg" class="card-img-top" alt="...">
+            <div class="card-title">Masaüstü Dizme Pc 8 GB RAM <br> <br>
+              <p>6000₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün2.jpg" class="card-img-top" alt="...">
+            <div class="card-title">Masaüstü Dizme Pc 16 GB RAM <br>  <br>
+              <p>8000₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün3.png" class="card-img-top" alt="...">
+            <div class="card-title">Acer Laptop 8 GB RAM <br><br>
+              <p>8500₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="liste">
-        <img src="ürün resimleri/ürün1.jpg" alt="PC"><p>1-Masaüstü Dizme Pc 8 GB RAM <strong>6000₺</strong></p>
-        <img src="ürün resimleri/ürün2.jpg" alt="PC"><p>2-Masaüstü Dizme Pc 16 GB RAM <strong>8000₺</strong></p>
-        <img src="ürün resimleri/ürün3.png" alt="Laptop"><p>3-Acer Laptop 8 GB RAM <strong>8500₺</strong></p>
-        <img src="ürün resimleri/ürün4.jpg" alt="Laptop"><p>4-MSİ Laptop 32 GB RAM <strong>12000₺</strong></p>
-        <img src="ürün resimleri/ürün5.jpg" alt="All-in-one"><p>5-HP All-in-one PC 4 GB RAM <strong>5000₺</strong></p>
-        <img src="ürün resimleri/ürün6.jpg" alt="All-in-one"><p>6-Turbox All-in-one PC 6 GB RAM <strong>4500₺</strong></p>
-        <img src="ürün resimleri/ürün7.jpg" alt="Tablet PC"><p>7-Huawei Tablet PC 4 GB RAM 64 ROM <strong>3500₺</strong></p>
-        <img src="ürün resimleri/ürün8.jpg" alt="Tablet PC"><p>8-TronPad Tablet PC 3 GB RAM 32 ROM <strong>3000₺</strong></p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün4.jpg" class="card-img-top" alt="...">
+            <div class="card-title">MSİ Laptop 32 GB RAM <br><br>
+              <p>12000₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün5.jpg" class="card-img-top" alt="...">
+            <div class="card-title">HP All-in-one PC 4 GB RAM <br><br>
+              <p>5000₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün6.jpg" class="card-img-top" alt="...">
+            <div class="card-title">Turbox All-in-one PC 6 GB RAM <br><br>
+              <p>4500₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün8.jpg" class="card-img-top" alt="...">
+            <div class="card-title">TronPad Tablet PC 3 GB RAM 32 ROM <br><br>
+              <p>3000₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mt-3">
+        <div class="card">
+          <div class="card-body fw-bolder">
+            <img src="Ürün resimleri/ürün7.jpg" class="card-img-top" alt="...">
+            <div class="card-title">Huawei Tablet PC 4 GB RAM 64 ROM <br><br>
+              <p>3500₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 
 
 </body>
+
 </html>
